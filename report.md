@@ -41,15 +41,15 @@
 
 ## Section 4: Deployed and Presentation Information
 - **Deployment Platform:** Render
-- **Live Deployment URL:** [Provide your live deployment site URL here]
+- **Live Deployment URL:** https://cs411-search-visualizer-sy26.onrender.com
 - **Video Presentation Link:** [Provide an accessible link to your 5–7 minute video presentation]
 
 ---
 
 ## Section 5: Discussion
 - **Which search algorithm is best for this route finding problem?** 
-    [Write your answer here]
-- **Search Efficiency (Nodes expanded/time taken comparison):** [Write your answer here comparing search efficiency in terms of number of nodes visited and runtime across different algorithms]
+    I think A* is the best algorithm for this route finding problem. It found the lowest route at 404.94 miles, which was the same as UCS, but it only expanded 23 nodes compared to UCS expanding 28. A* works well because it uses the straight-line distance to the goal to help decide where to search next. Since the actual road distance cannot be shorter than the straight line distance, the heuristic does not overestimate. Greedy only expanded 9 nodes, but it gave a longer route of 418.70 miles, so A* gives a better balance between finding the best route and being efficient.
+- **Search Efficiency (Nodes expanded/time taken comparison):** BFS got 404.94 miles with 25 nodes, DFS got 786.82 miles with 20 nodes, UCS got 404.94 miles with 28 nodes, IDS got 404.94 miles with 632 nodes, Greedy got 418.70 miles with 9 nodes, and A* got 404.94 miles with 23 nodes. IDS was clearly the least efficient in terms of nodes because it keeps starting over from depth 0 each time. DFS did not expand that many nodes, but the route it found was almost double the optimal distance. BFS and IDS both found a 7 road route, which happened to be the cheapest route here, even though they are not actually looking at mileage. UCS and A* both found the best route, but A* searched fewer nodes because the heuristic helped guide it. Since all of the algorithms took under 1 ms, I think comparing the number of nodes expanded gives a better idea of efficiency here.
 - **Link the idea of search algorithm to today Generative AI.** 
-    [Write your answer here]
+    Search algorithms are also pretty similar to how Generative AI works today. An LLM is basically choosing between a huge number of possible next words or tokens every time it generates something. Beam search keeps a few of the best possible sentences going at once instead of checking every single option. The probability the model gives to different outputs is kind of like a heuristic because it helps decide which path looks the most promising. Things like chain of thought and tree of thought also have different reasoning paths, similar to BFS or DFS. AI agents do something similar by searching through different actions until they find a path that completes the task.
 
