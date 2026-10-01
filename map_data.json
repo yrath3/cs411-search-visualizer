@@ -1,0 +1,276 @@
+{
+  "region": "Illinois, USA",
+  "total_cities": 28,
+  "total_edges": 49,
+  "connected": true,
+  "locations": {
+    "Chicago, IL": {
+      "lat": 41.8755616,
+      "lon": -87.6244212
+    },
+    "Evanston, IL": {
+      "lat": 42.0470043,
+      "lon": -87.6846053
+    },
+    "Skokie, IL": {
+      "lat": 42.0262972,
+      "lon": -87.7521069
+    },
+    "Des Plaines, IL": {
+      "lat": 42.0415823,
+      "lon": -87.8873916
+    },
+    "Arlington Heights, IL": {
+      "lat": 42.0811563,
+      "lon": -87.9802164
+    },
+    "Palatine, IL": {
+      "lat": 42.1105502,
+      "lon": -88.0434304
+    },
+    "Schaumburg, IL": {
+      "lat": 42.0333608,
+      "lon": -88.083406
+    },
+    "Elgin, IL": {
+      "lat": 42.03726,
+      "lon": -88.2810994
+    },
+    "Waukegan, IL": {
+      "lat": 42.3602273,
+      "lon": -87.8318164
+    },
+    "Naperville, IL": {
+      "lat": 41.7728699,
+      "lon": -88.1479278
+    },
+    "Aurora, IL": {
+      "lat": 41.7571701,
+      "lon": -88.3147539
+    },
+    "Bolingbrook, IL": {
+      "lat": 41.7003302,
+      "lon": -88.0717708
+    },
+    "Joliet, IL": {
+      "lat": 41.5263603,
+      "lon": -88.0840212
+    },
+    "Orland Park, IL": {
+      "lat": 41.630663,
+      "lon": -87.8536288
+    },
+    "DeKalb, IL": {
+      "lat": 41.8903447,
+      "lon": -88.7713953
+    },
+    "Rockford, IL": {
+      "lat": 42.2713945,
+      "lon": -89.093966
+    },
+    "Ottawa, IL": {
+      "lat": 41.3516628,
+      "lon": -88.845436
+    },
+    "Moline, IL": {
+      "lat": 41.5066112,
+      "lon": -90.5149988
+    },
+    "Quincy, IL": {
+      "lat": 39.9356016,
+      "lon": -91.4098727
+    },
+    "Peoria, IL": {
+      "lat": 40.6938609,
+      "lon": -89.5891008
+    },
+    "Bloomington, IL": {
+      "lat": 40.4797828,
+      "lon": -88.9939147
+    },
+    "Champaign, IL": {
+      "lat": 40.1164841,
+      "lon": -88.2430932
+    },
+    "Danville, IL": {
+      "lat": 40.125222,
+      "lon": -87.6304614
+    },
+    "Decatur, IL": {
+      "lat": 39.8454163,
+      "lon": -88.9524151
+    },
+    "Springfield, IL": {
+      "lat": 39.7990175,
+      "lon": -89.6439575
+    },
+    "Kankakee, IL": {
+      "lat": 41.1253903,
+      "lon": -87.848682
+    },
+    "Effingham, IL": {
+      "lat": 39.0520902,
+      "lon": -88.6029006
+    },
+    "Carbondale, IL": {
+      "lat": 37.7274692,
+      "lon": -89.216655
+    }
+  },
+  "graph": {
+    "Chicago, IL": {
+      "Evanston, IL": 14.1,
+      "Skokie, IL": 14.38,
+      "Des Plaines, IL": 20.1,
+      "Naperville, IL": 30.93,
+      "Joliet, IL": 44.54,
+      "Orland Park, IL": 26.33
+    },
+    "Evanston, IL": {
+      "Chicago, IL": 14.1,
+      "Skokie, IL": 4.98,
+      "Waukegan, IL": 28.05
+    },
+    "Skokie, IL": {
+      "Chicago, IL": 14.38,
+      "Evanston, IL": 4.98,
+      "Des Plaines, IL": 7.4
+    },
+    "Des Plaines, IL": {
+      "Chicago, IL": 20.1,
+      "Skokie, IL": 7.4,
+      "Arlington Heights, IL": 5.76
+    },
+    "Arlington Heights, IL": {
+      "Des Plaines, IL": 5.76,
+      "Palatine, IL": 4.07,
+      "Waukegan, IL": 30.05
+    },
+    "Palatine, IL": {
+      "Arlington Heights, IL": 4.07,
+      "Schaumburg, IL": 7.01
+    },
+    "Schaumburg, IL": {
+      "Palatine, IL": 7.01,
+      "Elgin, IL": 14.5,
+      "Naperville, IL": 26.31
+    },
+    "Elgin, IL": {
+      "Schaumburg, IL": 14.5,
+      "DeKalb, IL": 35.42,
+      "Rockford, IL": 49.38
+    },
+    "Waukegan, IL": {
+      "Evanston, IL": 28.05,
+      "Arlington Heights, IL": 30.05
+    },
+    "Naperville, IL": {
+      "Chicago, IL": 30.93,
+      "Schaumburg, IL": 26.31,
+      "Aurora, IL": 9.31,
+      "Bolingbrook, IL": 9.23
+    },
+    "Aurora, IL": {
+      "Naperville, IL": 9.31,
+      "Joliet, IL": 22.48,
+      "DeKalb, IL": 30.59
+    },
+    "Bolingbrook, IL": {
+      "Naperville, IL": 9.23,
+      "Joliet, IL": 13.11
+    },
+    "Joliet, IL": {
+      "Chicago, IL": 44.54,
+      "Bolingbrook, IL": 13.11,
+      "Aurora, IL": 22.48,
+      "Orland Park, IL": 19.7,
+      "Kankakee, IL": 35.48,
+      "Ottawa, IL": 45.51
+    },
+    "Orland Park, IL": {
+      "Chicago, IL": 26.33,
+      "Joliet, IL": 19.7
+    },
+    "DeKalb, IL": {
+      "Aurora, IL": 30.59,
+      "Elgin, IL": 35.42,
+      "Rockford, IL": 45.9,
+      "Ottawa, IL": 41.92,
+      "Moline, IL": 103.32
+    },
+    "Rockford, IL": {
+      "Elgin, IL": 49.38,
+      "DeKalb, IL": 45.9,
+      "Moline, IL": 119.31
+    },
+    "Ottawa, IL": {
+      "DeKalb, IL": 41.92,
+      "Joliet, IL": 45.51,
+      "Peoria, IL": 85.54,
+      "Bloomington, IL": 76.65
+    },
+    "Moline, IL": {
+      "DeKalb, IL": 103.32,
+      "Rockford, IL": 119.31,
+      "Peoria, IL": 92.88,
+      "Quincy, IL": 145.64
+    },
+    "Quincy, IL": {
+      "Moline, IL": 145.64,
+      "Springfield, IL": 111.82,
+      "Peoria, IL": 129.31
+    },
+    "Peoria, IL": {
+      "Ottawa, IL": 85.54,
+      "Moline, IL": 92.88,
+      "Quincy, IL": 129.31,
+      "Bloomington, IL": 39.58,
+      "Springfield, IL": 72.03
+    },
+    "Bloomington, IL": {
+      "Ottawa, IL": 76.65,
+      "Peoria, IL": 39.58,
+      "Champaign, IL": 50.78,
+      "Decatur, IL": 45.63,
+      "Springfield, IL": 65.77
+    },
+    "Champaign, IL": {
+      "Bloomington, IL": 50.78,
+      "Kankakee, IL": 77.88,
+      "Danville, IL": 33.29,
+      "Decatur, IL": 47.31,
+      "Effingham, IL": 86.48
+    },
+    "Danville, IL": {
+      "Kankakee, IL": 79.97,
+      "Champaign, IL": 33.29
+    },
+    "Decatur, IL": {
+      "Bloomington, IL": 45.63,
+      "Champaign, IL": 47.31,
+      "Springfield, IL": 38.64,
+      "Effingham, IL": 80.23
+    },
+    "Springfield, IL": {
+      "Quincy, IL": 111.82,
+      "Peoria, IL": 72.03,
+      "Bloomington, IL": 65.77,
+      "Decatur, IL": 38.64,
+      "Carbondale, IL": 169.72
+    },
+    "Kankakee, IL": {
+      "Joliet, IL": 35.48,
+      "Champaign, IL": 77.88,
+      "Danville, IL": 79.97
+    },
+    "Effingham, IL": {
+      "Champaign, IL": 86.48,
+      "Decatur, IL": 80.23,
+      "Carbondale, IL": 118.41
+    },
+    "Carbondale, IL": {
+      "Effingham, IL": 118.41,
+      "Springfield, IL": 169.72
+    }
+  }
+}
